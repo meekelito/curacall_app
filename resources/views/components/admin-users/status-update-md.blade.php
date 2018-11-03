@@ -32,7 +32,6 @@
 <script type="text/javascript">
 
   $( "form" ).submit(function( e ) {
-    alert("risty payat");
 		$.ajax({ 
       	type: "POST",
       	url: "{{ url('admin/update-status') }}",
